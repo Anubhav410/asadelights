@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helper to mirror the color theming used in the component */
+:root {
+  --asa-bg: #f9f3ef;
+  --asa-text: #5b3b2c;
+  --asa-accent: #25D366;
+}
+
+body { background: var(--asa-bg); color: var(--asa-text); }
